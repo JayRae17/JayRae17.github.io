@@ -1,0 +1,209 @@
+.grid {
+  border: 2px Gainsboro solid;
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template: 35% 1500px  / 20% 80%;
+  grid-row-gap: 10px;
+  grid-column-gap: 10px;
+}
+
+.boxa {
+  background-color: PaleVioletRed;
+  color: white;
+  border: 2px PaleVioletRed solid;
+  grid-column: 1/ span 2;
+}
+
+h1{
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+    margin-top: -16; 
+}
+
+.header{
+    border: 1px solid white;
+    width: 300px;
+    margin: 30px auto;
+    padding: 20px;
+    padding-left: 70px;
+    padding-right: 70px;
+    text-align: center;
+}
+
+
+.boxb{
+  background-color: Gainsboro;
+  color: black;
+  border: 2px Gainsboro solid;
+  z-index:2;
+  
+}
+
+.me{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%; 
+}
+
+.con{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    border-bottom: 5px solid white;
+    letter-spacing: 4px;
+    font-size: 20px;
+    
+}
+
+.tact{
+    font-family: Arial;
+    font-weight: bold;
+
+}
+
+.soc{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    border-top: 5px solid white;
+    padding-top: 10px;
+    letter-spacing: 4px;
+     font-size: 20px;
+    
+}
+.sosh{
+    text-align: center;
+    margin-top: -10;
+    letter-spacing: 20px;
+}
+.email{
+    color: black;
+}
+
+
+.email:hover
+{
+    color: PaleVioletRed ;
+    cursor:grab;
+    
+}
+
+.email:link{
+    text-decoration: none;
+    letter-spacing: 2px;
+}
+
+
+.website:link{
+    text-decoration: none;
+    letter-spacing: 2px;
+    color: black;
+}
+
+.website:hover{
+    color: PaleVioletRed ;
+    cursor:grab;
+}
+
+.insta:link{
+    text-decoration: none;
+}
+
+.insta:hover{
+    cursor:grab;
+}
+
+.twit:link{
+    text-decoration: none;
+}
+
+.twit:hover{
+    cursor:grab;
+}
+
+
+.fb:link{
+    text-decoration: none;
+}
+
+.fb:hover{
+    cursor:grab;
+}
+
+.boxc{
+    padding: 10px;
+  background-color: white;
+  color: black;
+  border-radius: 5px;
+  border: 2px Gainsboro solid;
+}
+
+.bhead{
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 4px;
+     font-size: 25px;
+}
+
+
+.whead{
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 4px;
+     font-size: 25px;
+}
+
+
+.ehead{
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 4px;
+     font-size: 25px;
+}
+
+.shead{
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 4px;
+     font-size: 25px;
+}
+
+.vhead{
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 4px;
+     font-size: 25px;
+}
+
+h3{
+    font-family:  Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-style: normal;
+}
+
+p{
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    letter-spacing: 2px;
+}
+
+
+
+ul{
+     column-count: 2;
+     list-style-type: none;
+     letter-spacing: 4px;
+}
+
+.ula{
+     column-count: 3;
+}
+li{
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+
+
+
