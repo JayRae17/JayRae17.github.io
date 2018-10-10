@@ -1,22 +1,26 @@
 .grid {
-  border: 2px Gainsboro solid;
   width: 100%;
   height: 100%;
   display: grid;
-  grid-template: 35% 1500px  / 20% 80%;
+  grid-template: 35% 1500px  / 28% 70%;
   grid-row-gap: 10px;
   grid-column-gap: 10px;
 }
 
+body{
+      background-color: 
+}
 .boxa {
-  background-color: PaleVioletRed;
   color: white;
-  border: 2px PaleVioletRed solid;
   grid-column: 1/ span 2;
+  background: PaleVioletRed;
+  
+  margin-left: -10px;
+  margin-right: -20px;
 }
 
 h1{
-    font-family:Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 h3{
@@ -28,8 +32,8 @@ h3{
 .header{
     border: 1px solid white;
     width: 300px;
-    margin: 30px auto;
-    padding: 20px;
+    margin: 40px auto;
+    padding: 15px;
     padding-left: 70px;
     padding-right: 70px;
     text-align: center;
@@ -39,8 +43,11 @@ h3{
 .boxb{
   background-color: Gainsboro;
   color: black;
-  border: 2px Gainsboro solid;
   z-index:2;
+  margin-top: 20px;
+  margin-left: 100px;
+  
+  
   
 }
 
@@ -49,20 +56,23 @@ h3{
     margin-left: auto;
     margin-right: auto;
     border-radius: 50%; 
+    padding-top: 20px;
 }
 
 .con{
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
-    border-bottom: 5px solid white;
-    letter-spacing: 4px;
+    letter-spacing: 6px;
     font-size: 20px;
+    
+  
     
 }
 
 .tact{
     font-family: Arial;
     font-weight: bold;
+    margin-left: 10px;
 
 }
 
@@ -139,13 +149,19 @@ h3{
   background-color: white;
   color: black;
   border-radius: 5px;
-  border: 2px Gainsboro solid;
+  margin-top: 20px;
+  margin-right: 100px;
+   border: 4px Gainsboro dotted;
 }
 
 .bhead{
     font-family: Arial, Helvetica, sans-serif;
     letter-spacing: 4px;
      font-size: 25px;
+}
+
+.bhead:hover{
+    color: Gainsboro;
 }
 
 
@@ -155,11 +171,33 @@ h3{
      font-size: 25px;
 }
 
+.whead:hover{
+    color: Gainsboro;
+}
 
+.col{
+    display: flex;
+}
+
+.col1{
+    flex:1;
+}
+
+.col2{
+    flex:2;
+}
 .ehead{
     font-family: Arial, Helvetica, sans-serif;
     letter-spacing: 4px;
      font-size: 25px;
+}
+
+.ehead:hover{
+    color: Gainsboro;
+}
+
+.ehead:hover{
+    color: Gainsboro;
 }
 
 .shead{
@@ -168,10 +206,18 @@ h3{
      font-size: 25px;
 }
 
+.shead:hover{
+    color: Gainsboro;
+}
+
 .vhead{
     font-family: Arial, Helvetica, sans-serif;
     letter-spacing: 4px;
      font-size: 25px;
+}
+
+.vhead:hover{
+    color: Gainsboro;
 }
 
 h3{
@@ -203,6 +249,7 @@ li{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 15px;
 }
+
 
 
 
